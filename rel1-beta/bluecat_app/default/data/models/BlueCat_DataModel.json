@@ -1,0 +1,12 @@
+{
+    "modelName": "BlueCat_DataModel",
+    "displayName": "BlueCat DataModel",
+    "description": "",
+    "objectSummary": {
+        "Event-Based": 0,
+        "Transaction-Based": 0,
+        "Search-Based": 0
+    },
+    "objects": [],
+    "objectNameList": []
+}

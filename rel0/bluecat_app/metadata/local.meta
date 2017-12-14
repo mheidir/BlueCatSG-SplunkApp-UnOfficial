@@ -1,0 +1,83 @@
+[app/ui]
+version = 6.4.5
+modtime = 1505466032.814855000
+
+[app/launcher]
+version = 6.4.5
+modtime = 1505466032.816985000
+
+[app/package/check_for_updates]
+version = 6.4.5
+modtime = 1505466032.817871000
+
+[app/install/state]
+version = 6.4.5
+modtime = 1506054574.177615000
+
+[bluecat/bamidentity]
+version = 6.4.5
+modtime = 1506052431.113635000
+
+[app/install/is_configured]
+version = 6.4.5
+modtime = 1506052431.787140000
+
+[indexes/bluecatindex]
+owner = admin
+version = 6.4.5
+modtime = 1506051682.485456000
+
+[inputs/udp%3A%2F%2F514]
+owner = admin
+version = 6.4.5
+modtime = 1505977778.828966000
+
+[props/bluecat%3Aquery/EXTRACT-BLUECAT%3ARATE]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 6.4.5
+modtime = 1506335934.846464000
+
+[props/BLUECAT%3AALERT%3ALOGS]
+owner = admin
+version = 6.4.5
+modtime = 1506071615.591185000
+
+[indexes/bluecatalertlogs]
+owner = admin
+version = 6.4.5
+modtime = 1506071641.882774000
+
+[inputs/monitor%3A%2F%2F%2Fopt%2Fsplunk%2Fvar%2Flog%2Fsplunk%2Fbluecat_dns_alert.log]
+owner = admin
+version = 6.4.5
+modtime = 1506071651.013446000
+
+[transforms/REPORT-BLUECAT%3ADETECT%3ALOG]
+owner = admin
+version = 6.4.5
+modtime = 1506073609.420592000
+
+[props/BLUECAT%3AALERT%3ALOGS/REPORT-BLUECAT%3ADETECT%3ALOG]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = admin
+version = 6.4.5
+modtime = 1506073609.494934000
+
+[views/bluecat_dns]
+version = 6.4.5
+modtime = 1506334285.485650000
+
+[views/dns_statistics]
+version = 6.4.5
+modtime = 1506336061.481686000
+
+[views/security_threats]
+version = 6.4.5
+modtime = 1506336148.747908000
+
+[props/bluecat%3Aquery/EXTRACT-BLUECAT%3AQUERYLOG]
+version = 6.4.5
+modtime = 1506335974.151556000

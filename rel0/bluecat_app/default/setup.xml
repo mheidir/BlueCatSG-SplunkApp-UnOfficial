@@ -1,0 +1,40 @@
+<setup>
+<block title="Configure Bluecat Address Manager Settings" endpoint="admin/bluecatinstall" entity="bamidentity">
+  <input field="bamip">
+    <label>IP Address</label>
+    <type>text</type>
+  </input>
+  <input field="username">
+    <label>API Username</label>
+    <type>text</type>
+  </input>
+  <input field="password">
+    <label>API Password</label>
+    <type>password</type>
+  </input>
+</block>
+
+<block title="Configure DNS Tunnel Detection" endpoint="admin/bluecatinstall" entity="bamidentity">
+  <input field="querylength">
+    <label>DNS Query length (default = 80) </label>
+    <type>text</type>
+  </input>
+  <input field="queryrate">
+    <label>DNS Queries per minute (default = 120) </label>
+    <type>text</type>
+  </input>
+</block>
+
+<block title="Configure DNS Tunnel Mitigation and Response" endpoint="admin/bluecatinstall" entity="bamidentity">
+  <input field="actionalert">
+    <label>Alert </label>
+    <type>bool</type>
+  </input>
+  <input field="actionblock">
+    <label>Block </label>
+    <type>bool</type>
+  </input>
+</block>
+
+</setup>
+

@@ -1,0 +1,5 @@
+<nav search_view="search" color="#0073AE">
+  <view name="dns_statistics" default="true" />
+  <view name="security_threats" />
+  <view name="search" />
+</nav>
