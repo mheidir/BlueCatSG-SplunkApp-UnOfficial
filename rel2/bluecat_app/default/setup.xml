@@ -1,0 +1,54 @@
+<setup>
+<block title="Bluecat Address Manager" endpoint="admin/bluecatinstall" entity="bamidentity">
+  <input field="bamip">
+    <label>BAM IP Address</label>
+    <type>text</type>
+  </input>
+  <input field="username">
+    <label>API Username</label>
+    <type>text</type>
+  </input>
+  <input field="password">
+    <label>API Password</label>
+    <type>password</type>
+  </input>
+</block>
+
+<block title="Response Policy Zone - For Blacklisting" endpoint="admin/bluecatinstall" entity="bamidentity">
+  <input field="configuration">
+    <label>Configuration Name</label>
+    <type>text</type>
+  </input>
+  <input field="responsepolicy">
+    <label>Response Policy Name</label>
+    <type>text</type>
+  </input>
+  <input field="ddsnames">
+    <label>BlueCat DDS (If more than 1, separate with comma(,))</label>
+    <type>text</type>
+  </input>
+</block>
+
+<block title="DNS Tunnel Detection" endpoint="admin/bluecatinstall" entity="bamidentity">
+  <input field="querylength">
+    <label>DNS Query length (default = 35) </label>
+    <type>text</type>
+  </input>
+  <input field="queryrate">
+    <label>DNS Queries per 30s interval (default = 8) </label>
+    <type>text</type>
+  </input>
+</block>
+
+<block title="DNS Tunnel Mitigation and Response" endpoint="admin/bluecatinstall" entity="bamidentity">
+  <input field="actionalert">
+    <label>Alert </label>
+    <type>bool</type>
+  </input>
+  <input field="actionblock">
+    <label>Block </label>
+    <type>bool</type>
+  </input>
+</block>
+
+</setup>
